@@ -1,0 +1,262 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Noto Sans", sans-serif;
+    background-color: #e0e1dd;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+
+ol,ul,li {
+    list-style: disc;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+header 10%
+container-presentacion 20%
+    container-pfp auto
+    container-indice auto
+secciones 50%
+footer 10%
+*/
+
+.header {
+    background-color: #1b263b;
+    width: 100%;
+    height: 10%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.container-presentacion{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+
+.container-pfp{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen{
+    width: 160px;
+    height: auto;
+    border-radius: 11.5rem;
+    box-shadow: 0px 7px 12px 0 rgba(20, 20, 20, 0.3);
+}
+
+.container-indice {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.indice {
+    background-color: #415a77;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.indice h2 {
+    margin: 0;
+}
+
+.indice-lista {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.secciones {
+    margin: 0;
+    padding: 0;
+    height: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.container-secc-img{
+    width: 100%;
+}
+
+.container-secc-img img{
+    width: 450px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 7px 12px 0 rgba(20, 20, 20, 0.3);
+}
+
+.formacion {
+    width: 100%;
+    height: 20%;
+    background-color: #b0c4b1;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formacion h2 {
+    background-color: #698C6B;
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.pregunta {
+    margin: 0;
+}
+
+.respuesta {
+    margin: 0;
+}
+
+.experiencia {
+    width: 100%;
+    height: 20%;
+    background-color: #f4a261;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.experiencia h2 {
+    background-color: #BF5D0D;
+    margin-bottom: 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.mentalidad {
+    width: 100%;
+    height: 20%;
+    padding: 10px;
+    background-color: #90e0ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mentalidad h2 {
+    background-color: #1FBBD6;
+    margin-bottom: 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.tecnologia {
+    width: 100%;
+    height: 20%;
+    padding: 10px;
+    background-color: #ff70a6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tecnologia h2 {
+    background-color: #E00056;
+    margin-bottom: 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.code {
+    background-color: #1b263b;
+    color: red;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.personal {
+    width: 100%;
+    height: 20%;
+    padding: 10px;
+    background-color: #ff595e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.personal h2 {
+    background-color: #E00007;
+    margin-bottom: 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.personal q{
+    background-color: #e0e1dd;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #1b263b;
+    width: 100%;
+    height: 10%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer p {
+    margin: 0;
+}
